@@ -1,12 +1,25 @@
 
-def numeroTelefono(numero):
-    print(numero.replace(' ', ''))
-    print (numero[0:3])
-
-
+def numeroTelefono(numeroEntrada):
+    numero = numeroEntrada
+    print("#######ENTRADA################")
+    numero = numero.replace(' ', '')
+    if (numero[0:3] == "+52"):
+        print("paso")
+    else:
+        
+        print("##############SALIDA################")
+        numero = ("+52"+numero)    
+        print(numero)
 
 def run():
-    numeroTelefono("+52 55481216 56")
+    print("""
+
+    #########TELEFONO############
+
+    """)
+    numeroTelefono("554 81216 56")
+    numeroTelefono("75551234567")
+
 
     
 
