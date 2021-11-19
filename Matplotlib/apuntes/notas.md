@@ -36,3 +36,5 @@ se usan para mostrar una distribucion son utiles cuando tenemos una matriz o lis
 
 ##Graficos de dispercion
 se usan para comparar variables, cuando una variable se ve afectada por otra variable
+##grafico circular
+se divide en segmentos, se usa para mostrar un porcentaje
